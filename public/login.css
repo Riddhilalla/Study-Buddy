@@ -1,0 +1,63 @@
+/* signup.css */
+
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+   
+}
+body{
+    background-image: url(signbg.jpg);
+}
+
+.container {
+    display: flex;
+    margin:auto;
+    height: 500px;
+    width: 800px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+   background-color: white;
+  
+}
+
+.form {
+    display: flex;
+    width: 50%;
+   flex-direction: column;
+   align-items: center;
+   background-color: #280274;
+   padding-top: 110px;
+}
+.box
+{
+    padding:12px;
+    width:65%;
+    margin:15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    outline:none;
+
+    
+}
+.sub
+{
+    padding:12px ;
+    width:40%;
+    margin-top: 20px;
+    background-color:#153EC6;
+    color:white;
+    border-radius: 20px;
+}
+.right {
+    display: flex;
+    width: 50%;
+   flex-direction: column;
+   align-items: center;
+   background-color: white;
+   padding-top: 200px;
+   color:  #280274;
+}
