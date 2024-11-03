@@ -5,7 +5,7 @@ mongoose.connect("mongodb+srv://riddhijlalla:UGuW70FNMSYBgP4x@study-buddy.xabdj.
     console.log('mongoose connected');
 })
 .catch((e)=>{
-    console.log('failed');
+    console.log('failed', e);
 })
 
 const logInSchema=new mongoose.Schema({
